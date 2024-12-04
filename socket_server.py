@@ -1,4 +1,5 @@
 import socket
+from socket_client import s
 
 s.bind(('localhost', 3030)) # Привязываем серверный сокет к localhost и 3030 порту
 s.listen(1) # Начинаем прослушивать входящие соединения
